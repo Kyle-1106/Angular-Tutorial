@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Hero } from '../hero';
 import { HEROES }  from '../mock-heroes';
 
@@ -14,4 +14,5 @@ export class HeroesComponent {
 onSelect(hero: Hero): void {
   this.selectedHero = hero;
 }
+
 }
